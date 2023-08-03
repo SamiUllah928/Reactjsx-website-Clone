@@ -3,8 +3,26 @@ import React from 'react'
 export default function About() {
   return (
     <div className='About'>
+        <div className="include">
+            <h1>
+In contrast to a landing page, your About Us page is the ideal place to accommodate a number of objectives:</h1>
+<p>Communicate the story of your business and why you started it.
+Describe the customers or the cause that your business serves.
+Explain your business model or how your products are made.Communicate the story of your business and why you started it.
+Describe the customers or the cause that your business serves.
+Explain your business model or how your products are made.Communicate the story of your business and why you started it.
+Describe the customers or the cause that your business serves.
+Explain your business model or how your products are made.Communicate the story of your business and why you started it.
+Describe the customers or the cause that your business serves.
+Explain your business model or how your products are made.Communicate the story of your business and why you started it.
+Describe the customers or the cause that your business serves.
+Explain your business model or how your products are made.</p>
+<button id='here'>Click here</button>
+        </div>
          <div className="menu-img">
-            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQobE567kTWRQfMpNDD4PgQtajzdo5CnBKwgAh57BnWTMJnlZVkKdOtFc4OhTeiHUclj1A&usqp=C" alt="" />
+            <img src="https://i.pinimg.com/736x/02/f3/5d/02f35d5d9afdd899e7eda002c22d3b4d.jpg" alt="" />
+            <img src="https://m.media-amazon.com/images/I/711SyP1Qk+S.jpg" alt="" />
+            <img src="https://preview.thenewsmarket.com/Previews/GNML/StillAssets/1920x1440/580025_v2.jpg" alt="" />
             </div>
             <div className="profilio">
                 <div className="build">
