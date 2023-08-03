@@ -1,6 +1,11 @@
 import React from 'react'
+import { useNavigate } from 'react-router-dom'
 
 export default function About() {
+    let navigate= useNavigate()
+    let handleherecl=()=>{
+        navigate('/Signup')
+    }
   return (
     <div className='About'>
         <div className="include">
@@ -17,7 +22,7 @@ Describe the customers or the cause that your business serves.
 Explain your business model or how your products are made.Communicate the story of your business and why you started it.
 Describe the customers or the cause that your business serves.
 Explain your business model or how your products are made.</p>
-<button id='here'>Click here</button>
+<button id='here' onClick={handleherecl}>Click here</button>
         </div>
          <div className="menu-img">
             <img src="https://i.pinimg.com/736x/02/f3/5d/02f35d5d9afdd899e7eda002c22d3b4d.jpg" alt="" />
