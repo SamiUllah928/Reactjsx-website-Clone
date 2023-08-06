@@ -207,6 +207,7 @@ transition: .5s;
 #blue {
   background-color: blue;
   border: none;
+  cursor: pointer;
   width: 60px;
   height: 30px;
   /* padding: 10px; */

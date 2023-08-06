@@ -16,8 +16,8 @@ export default function Signin() {
           <h1>Sign in</h1>
             <p>Stay updated on your professional world</p>
             <div className="info">
-                <input type="text" name="" id="qwerty" placeholder='Username or email' /> <br />
-                <input type="text" name="" id="qwertyu" placeholder='password' />
+                <input type="email" name="" id="qwerty" placeholder='Username or email' /> <br />
+                <input type="password" name="" id="qwertyu" placeholder='password' />
             </div>
             {/* <div className="login-btn">
                 <div className="check1">

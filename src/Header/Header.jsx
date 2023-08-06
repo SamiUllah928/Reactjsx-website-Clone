@@ -5,7 +5,7 @@ export default function Header({ a, b, c, d }) {
     let navigate = useNavigate()
 
     let handlehme = () => {
-        navigate('/Home')
+        navigate('/')
     }
     let handlesignin=()=>{
         navigate('/Signin')

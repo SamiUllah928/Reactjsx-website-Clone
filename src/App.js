@@ -4,12 +4,12 @@ import Variable from './Header/Variable'
 import VMainpage from './Header/VMainpage'
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import Header from './Header/Header'
-import Home from './Header/Home/Home'
-import Signin from './Header/Home/Signin'
-import Signup from './Header/Home/Signup'
-import Profile from './Header/Home/Profile'
-import Menu from './Header/Home/Menu'
-import About from './Header/Home/About'
+import Home from './Home/Home'
+import Signin from './Home/Signin'
+import Signup from './Home/Signup'
+import Profile from './Home/Profile'
+import Menu from './Home/Menu'
+import About from './Home/About' 
 export default function App() {
   return (
     <div>
@@ -18,7 +18,7 @@ export default function App() {
         <Variable />
         <Routes>
           <Route path='/vari' element={<VMainpage />} />
-          <Route path='/home' element={<Home />} />
+          <Route path='/' element={<Home />} />
           <Route path='/signin' element={<Signin />} />
           <Route path='/signup' element={< Signup />} />
           <Route path='/profile' element={< Profile />} />

@@ -16,15 +16,18 @@ export default function Signup() {
             <button id='cross' style={{position:'absolute',top:'10px',left:'10px'}} onClick={handlecross}>X</button>
                 
                 <div className="info">
-                    <input type="text" name="" id="qwerty" placeholder='Username or email' /> <br />
-                    <input type="text" name="" id="qwertyu" placeholder='password' />
+                  <form action="">
+                  <input type="text" name="" id="qwerty" placeholder='Name' /> <br />
+                    <input type="email" name="" id="qwerty" placeholder='Email' /> <br />
+                    <input type="password" name="" id="qwertyu" placeholder='password' />
+                  </form>
                 </div>
                 <div className="login-btn">
                     <div className="check1">
                         <input type="checkbox" name="" id="" /> Remember me
                     </div>
                     <div className="check2">
-                        <button id='blue' onClick={handlelogg}>Login</button>
+                        <button id='blue' onClick={handlelogg}>Signup</button>
 
                     </div>
                 </div>
